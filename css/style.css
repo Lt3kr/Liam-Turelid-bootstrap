@@ -1,0 +1,33 @@
+body{
+    background-color: aqua;
+}
+
+a{
+    color: cadetblue;
+}
+
+a:hover{
+    color:black;
+    border: green 10px solid;
+    border-radius: 10px;
+}
+
+p {
+    color: hotpink;
+}
+
+button{
+    border-radius: 15px;
+}
+
+btn-primary{
+    background-color: white;
+}
+
+btn-primary:hover{
+    background-color: indigo;
+}
+
+.card{
+background-color: tomato;
+}
