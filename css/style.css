@@ -29,5 +29,23 @@ btn-primary:hover{
 }
 
 .card{
-background-color: tomato;
+    background-color: tomato;
+}
+
+.container-red{
+    text-align: center;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background: red;
+}
+
+.container-bild{
+    align-content: center;
+}
+
+#text-center-Liam{
+    text-align: center;
 }
