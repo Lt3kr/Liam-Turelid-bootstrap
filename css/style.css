@@ -43,9 +43,15 @@ btn-primary:hover{
 }
 
 .container-bild{
-    align-content: center;
+    text-align: center;
 }
 
 #text-center-Liam{
     text-align: center;
+}
+
+.container-blue{
+    text-align: center;
+    width: 100%;
+    background: blue;
 }
