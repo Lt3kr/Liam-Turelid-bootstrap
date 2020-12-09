@@ -55,3 +55,24 @@ btn-primary:hover{
     width: 100%;
     background: blue;
 }
+
+.container-yellow{
+    text-align: center;
+    width: 100%;
+    background: yellow;
+}
+
+p{
+    color: black;
+    margin: 0;
+}
+
+#blue_p{
+    color: blue;
+}
+
+.container-pink{
+    text-align: center;
+    width: 100%;
+    background: pink;
+}
