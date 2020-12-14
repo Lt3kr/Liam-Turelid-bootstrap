@@ -76,3 +76,22 @@ p{
     width: 100%;
     background: pink;
 }
+
+.container-green{
+    text-align: center;
+    width: 100%;
+    background: rgb(1, 255, 1);
+}
+
+.card-row{
+    display: flex;
+    flex-direction: row;
+    color: grey;
+    border-radius: 1rem;
+    border: 1px rgb(78, 107, 78);
+    position: relative;
+    margin-left: 9rem;
+    background-color: royalblue;
+    max-width: 0;
+}
+
