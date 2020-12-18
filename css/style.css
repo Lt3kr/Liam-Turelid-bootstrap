@@ -1,19 +1,15 @@
-body{
+body{ /*Ändrar så att bakgrunden alltid är aqua*/
     background-color: aqua;
 }
 
-a{
+a{ /*Ändrar vilken färg linkar har*/
     color: cadetblue;
 }
 
-a:hover{
+a:hover{ /*ändrar hur linkar ser ut när man har sin mus över dem*/
     color:black;
     border: green 10px solid;
     border-radius: 10px;
-}
-
-p {
-    color: hotpink;
 }
 
 button{
@@ -28,11 +24,14 @@ btn-primary:hover{
     background-color: indigo;
 }
 
+/*det åvanför är ändringar på hur knappar ser ut i vanlig form och när du hovrar över dem*/
+
 .card{
     background-color: tomato;
-}
+    margin-bottom: 1rem;
+} /*bytte färg på card, har även margin så att de inte är precis på varandra*/
 
-.container-red{
+.container-red{ /*gjorde en container med röd färg som bakgrund*/
     text-align: center;
     width: 100%;
     padding-right: 15px;
@@ -42,56 +41,75 @@ btn-primary:hover{
     background: red;
 }
 
-.container-bild{
+#mitten_bild{ /* Bilden är nu i mitten*/
     text-align: center;
 }
 
-#text-center-Liam{
+#text-center-Liam{ /* har denna kvar sen den övningen vi gjorde och tyckte att den passade*/
     text-align: center;
 }
 
-.container-blue{
+.container-blue{ /*container fast blå*/
     text-align: center;
     width: 100%;
     background: blue;
 }
 
-.container-yellow{
+.container-yellow{ /*denna gången är den gul... man vet alldrig vad jag kommer på*/
     text-align: center;
     width: 100%;
     background: yellow;
 }
 
-p{
+p{ /*gör alla p-taggar till svarta utan margin för någon anledning*/
     color: black;
     margin: 0;
+    padding: 1rem;
 }
 
-#blue_p{
+#blue_p{ /* gjorde endast denna för att visa hur id såg ut för dem som inspekterar hemsidan*/
     color: blue;
 }
 
-.container-pink{
+.container-pink{ /* ROSA! */
     text-align: center;
     width: 100%;
     background: pink;
 }
 
-.container-green{
+.container-green{ /* GREEN, WHATS YOUR PROBLEM! */
     text-align: center;
     width: 100%;
     background: rgb(1, 255, 1);
 }
 
-.card-row{
-    display: flex;
-    flex-direction: row;
-    color: grey;
+.card{ /*jag gör så att den är i mitten av skärmen*/
+    margin-left: 50rem;
+}
+.container-purple{ /* tror inte jag behöver förklara detta något mer*/
+    text-align: center;
+    width: 100%;
+    background-color: purple;
+}
+
+.container-BUT_ITS_ORANGE {
+    text-align: center;
+    width: 100%;
+    background-color: orange;
+}
+
+.container-white {
+    background: white;
+    text-align: center;
+    width: 100%;
+}
+
+.code_snippet { /*special container för kod exempel*/
+    text-align: left;
+    background-color: gray;
+    border: black 0.5px solid;
     border-radius: 1rem;
-    border: 1px rgb(78, 107, 78);
-    position: relative;
-    margin-left: 9rem;
-    background-color: royalblue;
-    max-width: 0;
+    width: 12rem;
+    font-family: DejaVu Sans Mono;
 }
 
