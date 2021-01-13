@@ -113,3 +113,16 @@ p{ /*gör alla p-taggar till svarta utan margin för någon anledning*/
     font-family: DejaVu Sans Mono;
 }
 
+.container-tiny {
+    text-align: center;
+    margin-left: 25%;
+    width: 50%;
+    background-color: grey;
+}
+
+.container-boring {
+    text-align: center;
+    width: 100%;
+    border: black 0.5px solid;
+    border-radius: 1rem;
+}
